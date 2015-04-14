@@ -1,0 +1,101 @@
+body {
+  padding: 20px 15px;
+  font-family: arial;
+  max-width: 2000px;
+  margin: 0 auto;
+  font-size: 1.4em;
+}
+
+h1 {
+  text-align: center;
+  color: #470047;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.TOC-lesson {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+
+.lesson {
+  background-color: #470047;
+  border-radius: 20px;
+  color: white;
+  padding: 10px;
+  margin: 10px auto; 
+}
+
+h2 {
+  margin: 10px
+}
+
+.concept {
+  background-color: #CCFF99;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  color: black;
+}
+
+.concept-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 8px;
+  text-align: center;
+  color: #470047;
+}
+
+.concept-description {
+  font-weight: lighter;
+  margin: 6px
+}
+
+span.code {
+  font-family: Courier;
+  background-color: #DACCDA;
+  font-weight: bold;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+div.code-block {
+  font-family: Courier;
+  background-color: #F0E6F0;
+  padding: 2px 4px;
+  display: inline-block;
+}
+
+span.indent-1 {
+  margin-left: 38px;
+}
+
+span.indent-2 {
+  margin-left: 76px;
+}
+
+span.indent-3 {
+  margin-left: 111px;
+}
+
+span.indent-4 {
+  margin-left: 146px;
+}
+
+table, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 7px;
+  font-family: Courier;
+  font-weight: bold;
+}
