@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - version 12</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<!-- Some content has been taken from the Udacity lesson videos -->
+<html>
+<head>
+  <title>
+    Introduction to Programming Notes
+  </title>
+</head>
+<body>
+   <div class="TOC">
+     <h1>Table of Contents</h1>
+     <h2>
+       <a href="#section-1">
+       An Introduction to Programming
+       </a>  
+     </h2>
+     <ol>
+       <li class="TOC-lesson">
+         <a href="#lesson-1">
+           Lesson 1: The Basics of the Web & HTML
+         </a> 
+         <ul>
+           <li>
+             <a href="#lesson-1-1">
+               World Wide Web
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-1-2">
+               HTML
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-1-3">
+               HTML Markup
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-1-4">
+               Inline v.s. Block Elements
+             </a> 
+           </li>
+         </ul>
+       </li>  
+       <li class="TOC-lesson">
+         <a href="#lesson-2">
+           Lesson 2: Creating a Structured Document with HTML
+         </a>
+         <ul>
+           <li>
+             <a href="#lesson-2-1">
+               The "Tree-Like" Structure of HTML
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-2-2">
+               Boxes
+             </a>
+           </li>
+         </ul>
+       </li>  
+       <li class="TOC-lesson">
+         <a href="#lesson-3">
+           Lesson 3: Adding CSS Style to HTML Structure
+         </a>
+         <ul>
+           <li>
+             <a href="#lesson-3-1">
+               CSS
+             </a>
+           </li>
+           <Li>
+             <a href="#lesson-3-2">
+               Specificity
+             </a>
+           </Li>
+           <li>
+             <a href="#lesson-3-3">
+               Inheritance
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-3-4">
+               Avoiding Repitition
+             </a>
+           </li>
+         </ul>
+       </li> 
+     </ol>
+     <h2>
+       <a href="#section-2">
+         Telling Computers What to Do
+       </a>  
+     </h2>
+     <ol>
+       <li class="TOC-lesson">
+         <a href="#lesson-1-a">
+           Lesson 1: Introduction to Serious Programming
+         </a>
+         <ul>
+           <li>
+             <a href="#lesson-1-1-a">
+               Computers
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-1-2-a">
+               Computer Program
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-1-3-a">
+               Programming Languages
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-1-4-a">
+               Python
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-1-5-a">
+               Grammar
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-1-6-a">
+               Python Expressions
+             </a>
+           </li>
+         </ul>
+       </li>
+       <li class="TOC-lesson">
+         <a href="#lesson-2-a">
+           Lesson 2: Variables & Strings
+         </a>
+         <ul>
+           <li>
+             <a href="#lesson-2-1-a">
+               Python Variables
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-2-2-a">
+               Assignment Statements
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-2-3-a">
+               Why Are Variables Useful?
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-2-4-a">
+               Strings
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-2-5-a">
+               Indexing Strings
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-2-6-a">
+               Selecting Sub-Sequences
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-2-7-a">
+               Finding Strings in Strings
+             </a>
+           </li>
+         </ul>
+       </li>
+       <li class="TOC-lesson">
+         <a href="#lesson-3-a">
+           Lesson 3: Input -> Function -> Output
+         </a>
+         <ul>
+           <li>
+             <a href="#lesson-3-1-a">
+               What Is A Function?
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-3-2-a">
+               Making & Using Functions
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-3-3-a">
+               Keywords 
+               <span class="code">def</span> &
+               <span class="code">return</span>
+             </a>
+           </li>
+         </ul>
+       </li>
+       <li class="TOC-lesson">
+         <a href="#lesson-4-a">
+           Decisions & Repitition: If & While
+         </a>
+         <ul>
+           <li>
+             <a href="#lesson-4-1-a">
+               Making Decisions
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-4-2-a">
+               If Statements
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-4-3-a">
+               If & Else
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-4-4-a">
+               Or Operator
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-4-5-a">
+               Examples
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-4-6-a">
+               Loops
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-4-7-a">
+               Break Statements
+             </a>
+           </li>
+         </ul>
+       </li>
+       <li class="TOC-lesson">
+         <a href="#lesson-5-a">
+           Lesson 5: Structured Data: Lists & For Loops
+         </a>
+         <ul>
+           <li>
+             <a href="#lesson-5-1-a">
+               Structured Data
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-5-2-a">
+               Lists
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-5-3-a">
+               Mutation
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-5-4-a">
+               Aliasing
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-5-5-a">
+               List Operations
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-5-6-a">
+               Loops on Lists
+             </a>
+           </li>
+           <li>
+             <a href="#lesson-5-7-a">
+               More on List Operators in Loops
+             </a>
+           </li>
+         </ul>
+       </li>
+     </ol>
+   </div>
+   <h1 id="section-1">
+     An Introduction to Programming
+   </h1>
+   <div class="lesson">
+     <h2 id="lesson-1">
+       Lesson 1: The Basics of the Web & HTML
+     </h2>
+     <div class="concept" id="lesson-1-1">
+       <div class="concept-title">
+         World Wide Web
+       </div>
+       <div class="concept-description">
+         <ul>
+           <li>
+             A collection of HTML documents made up of 
+             <b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage
+           </li>
+           <li>
+             Everything found online (docs., images, videos)
+             is glued together by HTML
+           </li>
+           <li>
+             Hyper <b>Links</b> connect all the HTML documents 
+             together making the World Wide
+             Web, <em>web</em>-like
+           </li>
+         </ul>
+         <p>
+           I open my favorite <b>browser</b> and and type in 
+           www.Udacity.com and hit go. My browser sends a request via 
+           the Internet using a protocol called HTTP to the 
+           <b>servers</b> hosting Udacity's files. The servers
+           respond with the requested files, which my browser then 
+           displays. For more information, check out
+           <a href = "https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">
+           this video.</a>
+         </p>  
+       </div>
+     </div>
+     <div class="concept" id="lesson-1-2">
+       <div class="concept-title">
+         HTML
+       </div>
+       <div class="concept-description">
+         <p>
+           HTML is a language. It has its own words (tags) and rules for 
+           how those words can be put togehter. 
+           HTML is made up of 4 important components:
+         </p> 
+         <ol>
+           <li>
+             Text Content (The actual text you see.)
+           </li>
+           <li>
+             Markup (How the text looks, color, arangment, etc.)
+           </li>
+           <li>
+             References to Other Documents (Images, 
+             Videos, Games etc.)
+           </li>
+           <li>
+            Links to Other Pages (Hence, the 
+            <em>web</em>-like structure of the Web.)
+           </li>
+         </ol>
+       </div>
+     </div>
+     <div class="concept" id="lesson-1-3">
+       <div class="concept-title">
+         HTML Markup
+       </div>
+       <div class="concept-description">
+         <p>
+           HTML Markup is made up of <b>tags</b>. These tags
+           tell the computer <em>how</em> to display the text. A tag 
+           <em>usually</em> consists of both an opening and a closing tag,
+           with the contents in between, and the entire entity is
+           referred to as an <b>element</b>. Some tags, like the 
+           image tag, do not contain any text content to be displayed 
+           and therefore do not have an end tag. 
+           A tag can have none, one, or multiple
+           <b>attributes</b> inside of it. <a href = "https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48723444">
+           This Video</a> gives a good overview.
+         </p> 
+       </div>
+     </div>
+     <div class="concept" id="lesson-1-4">
+       <div class="concept-title">
+         Inline v.s. Block Elements
+       </div>
+       <div class="concept-description">
+         <p>
+           HTML elements can be either inline, or block. Block elements 
+           form an invisible box around the contents inside of them. 
+           This box can be adjusted in both height and width. Inline 
+           elements simply appear in line with the text. 
+         </p> 
+       </div>
+     </div>
+   </div>
+   <div class="lesson">
+     <h2 id="lesson-2">
+       Lesson 2: Creating a Structured Document with HTML
+     </h2>
+     <div class="concept" id="lesson-2-1">
+       <div class="concept-title">
+         The "Tree-Like" Structure of HTML
+       </div>
+       <div class="concept-description">
+         <p>
+           The DOM (<b>D</b>ocument <b>O</b>bject <b>M</b>odel) refers 
+           to the tree-like structure of a webpage. This tree-like, or 
+           branching structure is formed because HTML can have one tag 
+           nested inside another tag nested inside another tag and so on. 
+           When viewed with developer tools in a browser, this structure 
+           can be seen by expanding the triangle at the beginning of 
+           the first element (the html tag) and continuing to expand 
+           each tag until there is nothing left but text. What this triangle really represents though, is a box. You can think 
+           of a well structured webpage kind of like one of those pretty 
+           nesting dolls; but instead of the containers being doll shaped, 
+           the containers are box shaped. There is one big doll, or box 
+           (the html tag) and it contains all the other boxes, 
+           or elements, neatly boxed away inside of it. 
+         </p>  
+       </div>
+     </div>
+     <div class="concept" id="lesson-2-2">
+       <div class="concept-title">
+         Boxes
+       </div>
+       <div class="concept-description">
+         <p>
+           Everything on the web is made up of boxes. Even circles 
+           are boxes; they have just been styled, using CSS, to <em>look</em>
+           like circles. This is becasue a browser sees a webpage 
+           as a series of boxes, nested inside of one another. When reading an 
+           HTML document as text, you can see a wave of changing
+           indentations running along the left side. These indentations
+           indicate how deeply the element's corresponding "box" is nested 
+           inside of the entire structure. This structure not only organizes 
+           all the elements within a page but it also makes the code 
+           easier to read. It also allows developers to easily 
+           re-arrange elements on the page.
+         </p>  
+       </div>
+     </div>
+   </div> 
+   <div class="lesson">
+     <h2 id="lesson-3">
+       Lesson 3: Adding CSS Style to HTML Structure
+     </h2>
+     <div class="concept" id="lesson-3-1">
+       <div class="concept-title">
+         CSS
+       </div>
+       <div class="concept-description">
+         <p>
+           CSS stands for Cascading Style Sheets. Like HTML, 
+           it is also a language and it controls the look, 
+           or style, of a webpage. One HTML file can reference 
+           just one, or several CSS files in order to create the
+           final, visible look, or style, of the page. You can 
+           think of CSS as a set of rules that tell the browser 
+           how to display certain elements. CSS allows programmers 
+           to group similar elements together by giving them 
+           the same class name and then specifying a style that 
+           should apply to all the elements with that same class 
+           name. 
+         </p> 
+       </div>
+     </div>
+     <div class="concept" id="lesson-3-2">
+       <div class="concept-title">
+         Specificity
+       </div>
+       <div class="concept-description">
+         <p>
+           CSS rules can be very general or very specific. 
+           Think of it in terms of laws, there are national laws,
+           state laws, municipality laws and maybe even your own
+           house rules.  In CSS you can write rules that apply to 
+           the entire page, or just to one section, or just one 
+           box, or just one element. However, in CSS, the most 
+           specific rule is applied to every element, hence the
+           word Cascading.The browser goes deeper and deeper 
+           into the set of rules to find the one that best 
+           describes the elements, and then applies that rule. 
+           This idea is known as inheritance. 
+         </p> 
+       </div>
+     </div>
+     <div class="concept" id="lesson-3-3">
+       <div class="concept-title">
+        Inheritance
+       </div>
+       <div class="concept-description">
+         <p>
+           Inheritance is a feature of CSS that helps developers 
+           avoid repetition. It relies on the tree-like, or 
+           nesting-box structure of HTML to operate. This 
+           structure creates an ancestor-descendant relationship 
+           in the elements and is what allows properties to be 
+           applied not only to a specified element, but also to 
+           its descendants. This means that descendant elements 
+           may inherit properties from any ancestor elements 
+           enclosing them. Inheritance is what prevents 
+           developers from having to declare certain properties 
+           over and over again. 
+         </p> 
+       </div>
+     </div>
+     <div class="concept" id="lesson-3-4">
+       <div class="concept-title">
+         Avoiding Repitition
+       </div>
+       <div class="concept-description">
+         <p>
+           Avoiding repetition when writing code is important 
+           for several reasons. 
+         </p>
+         <p>
+           One, it helps prevent errors. When programmers don’t 
+           avoid repetition it leads to having to repeat the same, 
+           or just slightly different, code over and over again 
+           in many HTML elements. This leads to errors when a 
+           programmer needs to make changes to something. 
+           If they don’t meticulously make the same changes 
+           everywhere the repeated code appears, 
+           problems will arise.  
+         </p>
+         <p>
+           Two, it provides consistency. Take this webpage for 
+           example. Each lesson looks the same. By giving each 
+           lesson <span class="code">div</span> the same
+           <span class="code">class</span>, I am able to specify
+           a style for that class in only one place. Then if I 
+           need to make changes, I can go back into the style 
+           rule for that class and easily revise it any way I 
+           want; I do not have to search the entire document 
+           for each instance of that code.  
+         </p> 
+       </div>
+     </div>
+   </div>
+   <h1 id="section-2">
+     Telling Computers What to Do
+   </h1>
+   <div class="lesson">
+     <h2 id="lesson-1-a">
+       Lesson 1: Introduction to "Serious" Progarmming
+     </h2>
+     <div class="concept" id="lesson-1-1-a">
+       <div class="concept-title">
+         Computers
+       </div>
+       <div class="concept-description">
+         <p>
+           Computers are machines that can be 
+           <b>programmed</b> to do almost anyting we want, as long as 
+           we can write a program that specifies 
+           a <em>specific sequence of instructions</em>.
+         </p>
+       </div>
+     </div>
+     <div class="concept" id="lesson-1-2-a">
+       <div class="concept-title">
+         Computer Program
+       </div>
+       <div class="concept-description">
+         <p>
+           A computer program is a <em>specific sequence of steps</em> a computer  can follow to perform a particular function. Web browsers, mobile apps, games and even simple print statements are all examples of computer programs. 
+         </p>
+       </div>
+     </div>
+     <div class="concept" id="lesson-1-3-a">
+       <div class="concept-title">
+         Programming Languages
+       </div>
+       <div class="concept-description">
+         <p>
+           A programming language is what programmers  use to comunicate  instructions to a computer. Python is one example of a programming language. 
+         </p>
+       </div>
+     </div>
+     <div class="concept" id="lesson-1-4-a">
+       <div class="concept-title">
+         Python
+       </div>
+       <div class="concept-description">
+         <p>
+           Python is a programming language. The python interpreter is a computer program that interprets the code written in the python programming language and converts it into a language that the computer can understand. 
+         </p>
+       </div>
+     </div>
+     <div class="concept" id="lesson-1-5-a">
+       <div class="concept-title">
+         Grammar
+       </div>
+       <div class="concept-description">
+         <p>
+           Every human language has its own set of rules, or Grammar, that specifies what is "correct"  and what is "incorrect". Programming languages have Grammar too. 
+         </p>
+         <p>
+           In any human languge, when people make grammatical mistakes the meaning can often still be understood by other humans. Computers however, aren't smart enough to do this. Becasue computers interpret instructions literally, even the smallest error will cause big probelms. This is means the code must adhere exactly to the grammar of the programming languge in order for the code to run. 
+         </p>
+       </div>
+     </div>
+     <div class="concept" id="lesson-1-6-a">
+       <div class="concept-title">
+         Python Expressions
+       </div>
+       <div class="concept-description">
+         <p>
+           A python "expression" is a vaild python statement; it adheres to the rules of the python grammar. For example: <span class="code">print 1 + 1</span> is a valid python expression, but <span class="code">print 1 +</span> (without a number at the end) is not valid.
+         </p>
+       </div>
+     </div>
+   </div>
+   <div class="lesson">
+     <h2 id="lesson-2-a">
+       Lesson 2: Variables & Strings
+     </h2>
+     <div class="concept" id="lesson-2-1-a">
+       <div class="concept-title">
+         Python Variables
+       </div>
+       <div class="concept-description">
+         <p>
+           Variables in Python allow us to use names to refer to and keep track of values. To create a variable, use an <b>assignment statement</b> in the form
+           <span class="code">name = expression</span>. After the assignment statement, the name refers to the value of that expression. 
+         </p>
+         <p>
+           For example, if the variable 
+           <span class="code">apples</span> refers to the value <span class="code">2</span>, and the variable 
+           <span class="code">oranges</span> refers to the variable 
+           <span class="code">3</span>, then the following code would print out 
+           <span class="code">5</span>: 
+           <span class="code">print apples + oranges</span>
+         </p>
+       </div>
+     </div>
+     <div class="concept" id="lesson-2-2-a">
+       <div class="concept-title">
+         Assignment Statements
+       </div>
+       <div class="concept-description">
+         <p>
+           The equals sign in Python assignment statements does not mean "equal to". It means "assignment". The value on the right side of the 
+           <span class="code">=</span>
+           sign is <em>assigned</em> to the name on the left side of the sign.
+         </p>
+         <p>
+           The value of a variable does not have to be permanent. It can be changed by creating a second assignment statement where a new value is assigned to the already existing variable. When that variable is used again, it will refer to the new value. 
+         </p>
+       </div>
+     </div>
+     <div class="concept" id="lesson-2-3-a">
+       <div class="concept-title">
+         Why Are Variables Useful?
+       </div>
+       <div class="concept-description">
+         <p>
+           Variables are uselful in many ways: 
+           <ul>
+             <li>
+               They allow programmers to store the value of data in names that make sense to humans, thereby improving code readability. 
+             </li>
+             <li>
+               They give us a way of changing the value of something, like in the line: <span class="code">days = days - 1</span>. <a href="https://www.udacity.com/course/viewer#!/c-ud552-nd/l-3574398630/m-48684662">This video</a> does a good job of explaining the way values can change.
+             </li>
+           </ul>
+         </p>
+       </div>
+     </div>
+     <div class="concept" id="lesson-2-4-a">
+       <div class="concept-title">
+         Strings
+       </div>
+       <div class="concept-description">
+         <p>
+           Strings are a sequence of characters surrounded by quotes. To allow for quotes to be used inside of strings, Python accepts either single, double or triple quotes around a string. 
+         </p>
+         <p>
+           Just like numbers, strings can be printed and can also have variables assigned to them. The plus 
+           <span class="code">+</span> operator can be used with two strings (but never a string and a number), to create a concatenation of the two strings. 
+           The multiplication 
+           <span class="code">*</span> operator
+           however can be used with a number and a string. 
+           <span class="code">print '!' * 3</span>
+           would print out: <span class="code">!!!</span>
+         </p>
+       </div>
+     </div>
+     <div class="concept" id="lesson-2-5-a">
+       <div class="concept-title">
+         Indexing Strings
+       </div>
+       <div class="concept-description">
+         <p>
+           Each character in a string has a position within that string.
+           To index a part of a string, we use the following form: <span class="code">string[expression]</span>
+         </p>
+         <p>
+           To index the string "Hello" using positive numbers, the H is 0, the e is 1 and so on. Therefore, 
+           <span class="code">print "Hello"[0] </span> would print out 
+           <span class="code">H</span>. 
+           To index "Hello" using negative numbers, start from the end. The o is -1, l is -2, l is -3, e is -4 and so on. Therefore, <span class="code">print "Hello"[-1] </span> would print out 
+           <span class="code">o</span>.
+         </p>
+       </div>
+     </div>
+     <div class="concept" id="lesson-2-6-a">
+       <div class="concept-title">
+         Selecting Sub-Sequences
+       </div>
+       <div class="concept-description">
+         <p>
+           To select a sub-sequence of a string, we use the operator <span class="code">:</span>.
+           The output is a string that is a sub-sequence of the characters in the search string starting from position start and ending with position stop, but <b>not including</b> that character.
+         </p>
+       </div>
+
+     </div>
+     <div class="concept" id="lesson-2-7-a">
+       <div class="concept-title">
+         Finding Strings in Strings
+       </div>
+       <div class="concept-description">
+         <p>
+           Find is a method. It is a built in procedure provided by Python where the output is the position in the search string where the first occurance of the target string is found. If the target string doesn't appear in the search string, the output will be <span class="code">-1</span>.
+         </p>
+       </div>
+     </div>
+   </div>
+   <div class="lesson">
+     <h2 id="lesson-3-a">
+       Lesson 3: Input -> Function -> Output
+     </h2>
+     <div class="concept" id="lesson-3-1-a">
+       <div class="concept-title">
+         What Is A Function?
+       </div>
+       <div class="concept-description">
+         <p>
+           A function, aka procedure, takes data as input, does somethings to that data (as defined by the function), and then produces an output. Python has built-in functions, like the <span class="code">.find</span> function but it also allows the user to create functions.
+         </p>
+         <p>
+           Functions help programmers avoid repitition. Functions are tools that once created, can be reused forever. In other words, once a  function has been defined, it never has to be defined again. 
+         </p>
+       </div>
+     </div>
+     <div class="concept" id="lesson-3-2-a">
+       <div class="concept-title">
+         Making & Using Functions
+       </div>
+       <div class="concept-description">
+         <p>
+           Functions are made by starting with the line of code <span class="code">def</span> and then giving a function name followed by the function's <b>parameters</b> in parantheses, followed by a semi-colon. These parameters will be replaced with values once the functions is used (called). 
+         </p>
+         <p>
+           After the semi-colon is the "body" of the function. The body is what contains the code that specifies what to do with the input parameters. For example, the following code could be a definition of a function called 
+           <span class="code">sum</span>:
+           <div class="code-block">
+             def sum(a,b): <br>
+             <span class="indent-1">
+               answer = a + b
+             </span> <br>
+             <span class="indent-1">
+               return answer
+             </span>
+           </div>
+         </p>
+         <p>
+           To use a function, write the name of the function followed by the value(s) you want to give it in parentheses. 
+           <div class="code-block">
+             print sum(3,4) <br>
+             >>>7
+           </div>
+         </p>
+       </div>
+     </div> 
+     <div class="concept" id="lesson-3-3-a">
+       <div class="concept-title">
+         Keywords <span class="code">def</span> &
+         <span class="code">return</span>
+       </div>
+       <div class="concept-description">
+         <p>
+           The keyword <span class="code">def</span> is used to <em>define</em> a function. It tells python that what comes after it is a function. The keyword
+           <span class="code">return</span> tells  python exactly what the function should 
+           <em>return</em>, or produce, as output. If the function doesn't have a return statement, you'll see behaviour like this:
+           <div class="code-block">
+             def add_two(x): <br>
+             <span class="indent-1">answer = x + 2</span>
+             <br>
+             <br>
+             new_number = add_two(7)<br>
+             print new_number<br>
+             >>>None
+           </div>
+         </p>
+       </div>
+     </div>
+   </div>
+   <div class="lesson">
+     <h2 id="lesson-4-a">
+       Lesson 4: Decisions & Repitition: If & While
+     </h2>
+     <div class="concept" id="lesson-4-1-a">
+       <div class="concept-title">
+         Making Decisions
+       </div>
+       <div class="concept-discription">
+         <p>
+           Decisions allow us to make code behave differently depending on the different values that we input. To make a decision, we first have to make a comparison so that we have a way to test and decide what to do. 
+         </p>
+         <p>
+           There are many operators that are used for comparison. Examples include:
+           <ul>
+             <li> Equlality comparison:
+               <span class="code">==</span>
+             </li>
+             <li> Not equal to:
+               <span class="code">!=</span>
+             </li>
+             <li> Greater than:
+               <span class="code">></span>
+             </li>
+             <li> Less than:
+               <span class="code"><</span>
+             </li>
+             <li> Greater than or equal to:
+               <span class="code">>=</span>
+             </li>
+             <li> Less than of equal to:
+               <span class="code"><=</span>
+             </li>
+           </ul>
+           The output of a comparison is a Boolean value. It is either true, or false. 
+         </p>
+       </div>
+     </div>
+     <div class="concept" id="lesson-4-2-a">
+       <div class="concept-title">
+         If Statements
+       </div>
+       <div class="concept-description">
+         <p>
+           If statements help us make decisions by  making the code behave differently depending on the result of the comparison. They are written in the following form:
+           <div class="code-block">
+             if < test expression >:<br>
+             <span class="indent-1"> < block > </span>
+           </div> <br>
+           <br>  
+           The <span class="code"> < block > </span>
+           can be seen as the "body" of the if statement. It contains the code that will run if the test expression evaluates to true. If the test expression evaluates to false, the code in the body of the if statement will not execute. 
+         </p>
+         <p>
+           It is important to note the indentation of the 
+           <span class="code"> < block > </span>. It shows us that it is <em>inside</em> of the if statement, and also where it ends. If the next statement is not indented, it will execute regardless of what the test expression evaluates to becasue it is not inside of the if statement's
+           <span class="code"> < block > </span>.
+         </p>    
+       </div>
+     </div>
+     <div class="concept" id="lesson-4-3-a">
+       <div class="concept-title">
+         If & Else
+       </div>
+       <div class="concept-description">
+         <p>
+           If we want to add another block of code to execute in the condition of the if comparison being false, then we can do this by adding the keyword 
+           <span class="code">else</span>, followed by another 
+           <span class="code"> < block > </span> containing that code.
+         </p>
+         <p>
+           If the test expression following the if statement evaluates to true, the code in the follwoing indented 
+           <span class="code"> < block > </span> will execute. If the test expression evaluates to false, the code in the indented 
+           <span class="code"> < block > </span> following <span class="code">else</span> will execute. 
+         </p>  
+       </div>
+     </div>
+     <div class="concept" id="lesson-4-4-a">
+       <div class="concept-title">
+         Or operator 
+       </div>
+       <div class="concept-description">
+         <p>
+           The "or" operator follows this logic:
+           <table>
+             <tr>
+               <td>T and T = T</td>
+             </tr>
+             <tr>
+               <td>T and F = T</td>
+             </tr>
+             <tr>
+               <td>F and T = T</td>
+             </tr>
+             <tr>
+               <td>F and F = F</td>
+             </tr>
+           </table>
+           <br>
+           Therefore, if the first expression evaluates to true, the output value is true and the second expresion is not evaluated. If the first expression evaluates to false, the output value is the value of the second expression. 
+         </p>
+       </div>
+     </div>  
+     <div class="concept" id="lesson-4-5-a">
+       <div class="concept-title">
+         Examples
+       </div>
+       <div class="concept-description">
+         <p>
+           A function where the output is the biggest of the three numerical inputs:
+         </p>
+         <div class="code-block">
+           def biggest(a,b,c): <br>
+           <span class="indent-1">if a > b:</span><br>
+           <span class="indent-2">if a > c:</span><br>
+           <span class="indent-3">return a</span><br>
+           <span class="indent-2">else:</span><br>
+           <span class="indent-3">return c</span><br>
+           <span class="indent-1">else:</span><br>
+           <span class="indent-2">if b > c:</span><br>
+           <span class="indent-3">return b</span><br>
+           <span class="indent-2">else:</span><br>
+           <span class="indent-3">return c</span><br>
+         </div>
+         <p>
+           This problem can be solved much easier if we use the previoulsy defined function bigger(a,b):
+         </p>
+         <div class="code-block">
+           def bigger(a,b):<br>
+           <span class="indent-1">if a > b:</span><br>
+           <span class="indent-2">return a</span><br>
+           <span class="indent-1">else:</span><br>
+           <span class="indent-2">return b</span><br>
+         </div>
+         <p>
+           That solution looks like this:
+         </p>
+         <div class="code-block">
+           def biggest(a,b,c):<br>
+           <span class="indent-1">
+             return bigger(bigger(a,b),c)
+           </span><br>
+         </div>
+         <p>
+           Here, two calls to the function bigger are used to produce the output of the function biggest. The word bigger following the keyword <span class="code">return</span> represents the second call to the operation bigger, while the word bigger inside of the parentheses represents the first call where the bigger of variable a and b is determined. The second call then compares the output of the first call with the last variable c to determine the biggest of those two. 
+         </p>
+       </div>
+     </div>
+     <div class="concept" id="lesson-4-6-a">
+       <div class="concept-title">
+         Loops
+       </div>
+       <div class="concept-description">
+         <p>
+           A loop is a block of code, preceded by the keyword <span class="code">while</span>, that repeats as long as the test expression following <span class="code">while</span> evaluates to true. If the test expression evaluates to false, python moves on to the next instruction. In other words, as long as the test expression evaluates to true, the code in the body block of <span class="code">while</span> will execute over and over again. If it evalutes to false, the code in the body is not executed and we move on to the next instruction. Here is an example of a loop structure:
+         </p>
+         <div class="code-block">
+           i = 0<br>
+           while i < 10: <br>
+           <span class="indent-1">print i</span><br>   <span class="indent-1">i = i + 1</span><br>
+         </div>
+         <p>
+           The result will print out the numbers from 0-9. Once we print 9, the value of i changes to 10 and then when we evaluate the test expression, it evaluates to false so the loop stops. 
+         </p>
+       </div>
+     </div> 
+     <div class="concept" id="lesson-4-7-a">
+       <div class="concept-title">
+         Break Statements
+       </div>
+       <div class="concept-description">
+         <p>
+           Break statements provide a way to stop a loop even while the test expression is  true. That structure looks like this:
+         </p>
+         <div class="code-block">
+           while < test expression >:<br>
+           <span class="indent-2"> < block> </span><br>
+           <span class="indent-2">
+             if < break test >:<br>
+             <span class="indent-3">break</span><br>
+             <span class="indent-2"> < block  > </span><br>
+           </span><br>
+         </div>
+         <p>
+           If the test expression evaluates to true, python evaluates the code inside the block. If the break test is false, python contines with the code in the block. Then python goes back to the test expression, if it evaluates to true it runs the code in the block. Python will repeat this cycle until the output of the break test is false. If this happens, instead of running the rest of the code in the block, python jumps out of the loop and continues with the next instruction. 
+         </p>    
+       </div>
+     </div>        
+   </div>
+   <div class="lesson">
+     <h2 id="lesson-5-a">
+       Lesson 5: Structured Data: Lists & For Loops
+     </h2>
+     <div class="concept" id="lesson-5-1-a">
+       <div class="concept-title">
+         Structured Data
+       </div>
+       <div class="concept-description">
+         <p>
+           Structured data is data that can be broken down into its individual elements and where we can perform operations on those elements. Examples include:
+         </p>
+         <p>
+           Strings, a sequence of characters. We can operate on sub-sequences of strings. For example: If we assign the variable s to the string ‘yabba!’, we can select an element of this string by indexing a certain position in the string using square brackets. Because we can access specific characters in a string, a string is an example of structured data. 
+         </p>
+         <p>
+           Lists, a sequence of any element, allow us to reference any element(s) in the list and perform operations on it/them. 
+         </p>
+       </div>
+     </div>
+     <div class="concept" id="lesson-5-2-a">
+       <div class="concept-title">
+         Lists
+       </div>
+       <div class="concept-description">
+         <p>
+           Lists are a sequence of any elements. There are no restrictions on the types of elements that can be put in a list. They can also contain more than one type of element. Here is an example of a list, which contains multiple types of elements. This list contains strings, numbers and even other lists. 
+         </p>
+         <div class="code-block">
+           mixed_up = [‘apple’, 3, ‘oranges’, 27,  [1, 2, [‘alpha’, ‘beta’ ]]]
+         </div>
+         <p>
+           Lists allow us to nest lists inside of other lists. The last element in the list mixed_up is a list, containing another list. For lists that don’t fit on one line: create a new line after a comma, and indent it to let Python know that the elements on the second line are still part of the list.
+         </p>
+         <p>
+           We can access elements in a list the same way we index strings. If a list contains other lists, like the example below, we can access these nested elements by using the square brackets twice.
+         </p>
+         <div class="code-block">
+           beatles = [[‘John’, 1940], [‘Paul’, 1942],<br> 
+           <span class="indent-4">[‘George’, 1943], [‘Ringo’, 1940]]</span><br>
+           <br>
+           print beatles[3]  <br>
+           <br>
+           >>> [‘Ringo’, 1940] <br>
+           <br>
+           print beatles[3][0] <br>
+           <br>
+           >>> Ringo
+         </div>
+       </div>
+     </div>
+     <div class="concept" id="lesson-5-3-a">
+       <div class="concept-title">
+         Mutation
+       </div>
+       <div class="concept-description">
+         <p>
+           Mutation means we can change the value of a list after we have created it. While lists do support mutation, it is extremely important to remember that strings do not. When we assign a variable to a string, we can
+           change the value of the variable by making a second assignment statement and assigning that existing variable to a new string. It is important to note that the value of the variable is changing, not the value of the string itself. <br>
+           <br>
+           When we mutate a list, we are changing the value of the list.
+         </p>
+         <div class="code-block">
+           p = [‘H’, ‘e’, ‘l’, ‘l’, ‘o’]<br>
+           p[o] = ‘Y’<br>
+           print p <br>
+           >>> [‘Y’, ‘e’, ‘l’, ‘l’, ‘o’]
+         </div>
+         <p>
+           In the first statement we assigned the variable p to a list containing some single character strings. The second assignment statement finds the position indicated on the left side p[0], and replaces it with the value on the right side, ‘Y’. Note, we did not create a new list, we changed the value of the existing list. 
+         </p>
+       </div>
+     </div>
+     <div class="concept" id="lesson-5-4-a">
+       <div class="concept-title">
+         Aliasing
+       </div>
+       <div class="concept-description">
+         <p>
+           The term aliasing is used when there are two different ways to refer to the same object. What happens when we add the following assignment statements to the example above?
+         </p>
+         <div class="code-block">
+           q = p<br>
+           q[4] = '!'<br>
+           <br>
+           print q<br>
+           >>> ['Y', 'e', 'l', 'l', '!']<br>
+           print p<br>
+           >>> ['Y', 'e', 'l', 'l', '!']
+         </div>
+         <p>
+           The first statement introduces another variable, q, which also refers to the same list object that the variable p refers to. This is an example of aliasing; we have two variable names that refer to the same object. The second assignment statement shows why mutability is both powerful and tricky. Because two variables, p and q, now refer to the same object, mutating an element in variable q also changes the value of p. It is important to keep track of which variables refer to which object so that we don’t run into any problems when we make changes to any of those variables. 
+         </p>
+       </div>
+     </div>
+     <div class="concept" id="lesson-5-5-a">
+       <div class="concept-title">
+         List Operations
+       </div>
+       <div class="concept-description">
+         <p>
+           <b>Append</b> is a built in method of Python that will add a new element to the end of a list.  Append mutates the list. For example:
+         </p>
+         <div class="code-block">
+           stooges = [‘Moe’, ‘Larry’, ‘Curly’]<br>
+           stooges.append(‘Shemp’)<br>
+           print stooges<br>
+           >>> [‘Moe’,  ‘Larry’,  ‘Curly’, ‘Shemp’]
+         </div>
+         <p>
+           The <b><span class="code">+</span> Operator</b> behaves very similarly to the concatenation operation for strings. The <span class="code">+</span> operator doesn’t mutate the list, it creates a new list. For example:
+         </p>
+         <div class="code-block">
+           [0,1] + [2,3]<br>
+           >>> [0,1,2,3]
+         </div>
+         <p>
+           The <b>len operator </b> (short for length) outputs the number of elements in the input. The len operator only counts the outer elements of a list. If one of the elements in the list being counted is a list, len will not count the elements within this list, only the list itself is counted as an element in the outer list. For example:
+         </p>
+         <div class="code-block">
+           len( [‘a’, [‘b’, [‘c’]]] )<br>
+           >>> 2
+         </div>
+       </div>
+     </div>
+     <div class="concept" id="lesson-5-6-a">
+       <div class="concept-title">
+         Loops on Lists
+       </div>
+       <div class="concept-description">
+         <p>
+           If we want to loop through the elements in a list, we can do so by using either a while loop or a for loop. The for loop provides a simpler way (less code to write) of doing this than the while loop. For loops take the following structure:
+         </p>
+         <div class="code-block">
+           for  < name >  in < list >:<br>
+           <span class="indent-1"> < block > </span>
+         </div>
+         <p>
+           A for loop loops through a list in order and each time it assigns the name to one element in the list and evaluates the block. It does this until each element in the list has been looped through. A for loop makes defining the following function very easy. 
+         </p>
+         <div class="code-block">
+           <!-- Example from Udacity Course -->
+           my_list = [1, 2, [3, 4]]<br>
+           <br>
+           def   print_all_elements(p):<br>
+           <span class="indent-1">For e in p:</span><br>
+           <span class="indent-2">Print e</span><br>
+           <br>
+           print_all_elements(my_list)<br>
+           >>> <br>
+           1<br>
+           2<br>
+           [3, 4]<br>
+         </div>  
+       </div>
+     </div>
+     <div class="concept" id="lesson-5-7-a">
+       <div class="concept-title">
+         More on List Operators in Loops
+       </div>
+       <div class="concept-description">
+         <span class="code">
+           < list >.index( < value > )
+         </span>
+         <p>
+           Index is a method in Python that allows us to easily find where a particular value in a list first appears. If the value is not found, it produces an error. 
+         </p>
+         <span class="code">
+           < value > in < list > <br>
+           < value > not in < list >
+         </span>
+         <p>
+           The <span class="code">in</span> operator returns a Boolean value as its output. If the value is in the list, the output it True, otherwise output is false.  The in operator can be preceded by the operator 
+           <span class="code">not</span>, giving the reverse meaning. 
+         </p>    
+       </div>
+     </div>      
+   </div>        
+
+</body>
+</html>
+
+</body>
+
+</html>
